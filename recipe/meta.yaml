@@ -1,5 +1,5 @@
 {% set package = "molecule-signature" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/brsynth/molecule-signature/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 252bd29e8e58a0abbdc112475cbc0092e9596ad1bc9c3a304fb03d15f7e04d80
+  sha256: d2f9d796885266c283fc69f8472523752f74566f9066e378f46ea72384c6a920
 
 build:
   number: 0
